@@ -1,0 +1,92 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background: white;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    background-size: cover;
+}
+
+body > div {
+    margin-top: 2rem;
+    background: rgb(93, 194, 235, .8);
+}
+
+section {
+    color: white;
+    margin: 2rem;
+    padding: 2.5rem;
+    border: 5px solid green;
+    height: 80vh;
+    width: 50vw;
+}
+
+h1,
+ul {
+    text-align: center;
+}
+
+h1 {
+    font-size: 2rem;
+    font-family: 'Joan', serif;
+    font-style: italic;
+    padding: 1.5rem;
+}
+
+section > ul > li {
+    font-weight: 700;
+}
+
+section > div {
+    text-align: left;
+}
+
+li {
+    list-style-type: none;
+    display: inline;
+}
+
+a {
+    text-decoration: none;
+    color: green;
+}
+
+ul li,
+h2 {
+    font-family: 'Roboto', sans-serif;
+}
+
+h2 {
+    text-align: left;
+    margin-bottom: 1.75rem;
+
+}
+
+h2 + p {
+    width: 70%;
+}
+
+p {
+    font-size: 1.25rem;
+}
+
+img {
+    float: right;
+    width: 25%;
+    height: 25%;
+}
+
+nav {
+    text-align: center;
+    margin-top: 2.25rem;
+}
+
+a > span {
+    color: purple;
+
+}
